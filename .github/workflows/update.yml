@@ -45,7 +45,7 @@ jobs:
       run: |
         git clone git@github.com:eagletmt/android-repository-history .
     - name: Download executable
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: update
     - name: Update repository
